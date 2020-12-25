@@ -51,9 +51,11 @@ DKT의 본 논문에서는 0.86의 AUC를 주장했지만, 이후에 DKT를 repr
 Context-Aware Attentive Knowledge Tracing에서 재현한 DKT의 벤치마크 결과는 위와 같습니다.
 
 https://arxiv.org/abs/2007.12324
+
 ![table2](https://user-images.githubusercontent.com/71681194/103141419-6f3d6500-4737-11eb-9cb4-6fc20c233cd6.png)
 
 Going Deeper with Deep Knowledge Tracing에서 재현한 DKT의 벤치마크 결과는 위와 같습니다.
+
 https://eric.ed.gov/?id=ED592679
 
 ## Deep Knowledge Tracing 논문 리뷰
