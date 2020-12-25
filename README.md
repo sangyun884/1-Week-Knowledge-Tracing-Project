@@ -1,5 +1,5 @@
 # 1-Week-Knowledge-Tracing-Project
-이 프로젝트는 2020/12/20 ~ 2020/12/26에 진행되었습니다. TF 2.0을 이용하였습니다. 
+이 프로젝트는 2020/12/20 ~ 2020/12/26에 35~40H 동안 진행되었습니다. TF 2.0을 이용하였습니다. 
 ## 문제 정의
 Knowledge Tracing(KT)이란 educational application에서 학습자의 과거 performance를 바탕으로 future performance를 예측하는 domain입니다. 주어진 데이터는 ASSISTments2009의 skill_builder 데이터셋에서 exercise tag와 user correctness 정보만 추출한 것입니다. 학습자의 과거 exercise tag에 대한 correctness 정보를 바탕으로 새로운 문제에 대한 correctness를 binary classification하여 주어진 데이터에서 좋은 성능을 내는 것이 목표입니다.
 
@@ -36,7 +36,15 @@ Monotonic attention과 Rasch model을 사용해서 성능을 높였습니다. �
 ## 결과
 ![4](https://user-images.githubusercontent.com/71681194/103141375-d1e23100-4736-11eb-94be-02a0168f60c3.JPG)
 ### AUC : 0.82
-본 논문에서는 0.86의 AUC를 주장했지만, 이후에 DKT를 reproduce한 논문들에서는 그보다 낮은 성능을 보고하고 있습니다.
+![2](https://user-images.githubusercontent.com/71681194/103141591-d9efa000-4739-11eb-9ce6-c80a023f8503.JPG)
+
+![3](https://user-images.githubusercontent.com/71681194/103141595-e673f880-4739-11eb-9d07-48ee8816a7f4.JPG)
+
+
+훈련 시간 : 하나의 RTX 2070 SUPER로 15min 이하의 시간이 걸렸습니다.
+
+## 결과 비교
+DKT의 본 논문에서는 0.86의 AUC를 주장했지만, 이후에 DKT를 reproduce한 논문들에서는 그보다 낮은 성능을 보고하고 있습니다.
 ![table1](https://user-images.githubusercontent.com/71681194/103141412-503ed300-4737-11eb-919b-1c82cee405a4.png)
 
 Context-Aware Attentive Knowledge Tracing에서 재현한 DKT의 벤치마크 결과는 위와 같습니다.
@@ -46,4 +54,5 @@ https://arxiv.org/abs/2007.12324
 Going Deeper with Deep Knowledge Tracing에서 재현한 DKT의 벤치마크 결과는 위와 같습니다.
 https://eric.ed.gov/?id=ED592679
 
-위의 두 논문의 결과를 잘 재현했다고 할 수 있습니다.
+## Deep Knowledge Tracing 논문 리뷰
+https://yun905.tistory.com/24
