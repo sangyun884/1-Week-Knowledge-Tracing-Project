@@ -45,9 +45,11 @@ Monotonic attention과 Rasch model을 사용해서 성능을 높였습니다. �
 
 ## 결과 비교
 DKT의 본 논문에서는 0.86의 AUC를 주장했지만, 이후에 DKT를 reproduce한 논문들에서는 그보다 낮은 성능을 보고하고 있습니다.
+
 ![table1](https://user-images.githubusercontent.com/71681194/103141412-503ed300-4737-11eb-919b-1c82cee405a4.png)
 
 Context-Aware Attentive Knowledge Tracing에서 재현한 DKT의 벤치마크 결과는 위와 같습니다.
+
 https://arxiv.org/abs/2007.12324
 ![table2](https://user-images.githubusercontent.com/71681194/103141419-6f3d6500-4737-11eb-9cb4-6fc20c233cd6.png)
 
